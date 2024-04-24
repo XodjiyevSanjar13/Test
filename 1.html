@@ -1,6 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>xs</title>
+</head>
+<body>
+
+       <style>
+      img{margin-left: 150px;}
+      .cor{ width: 500px; float: left; margin-left: 500px;}
+      .dor{ width: 500px; float: left; }
+      
+
+  </style>
+  <div class="dor">
+  <h1 id="demo">Auto Park</h1>
+
+ <br><br> <h1 id="car"></h1>
+ <img id="lambo" src="" alt=""width="500px">
+ <br><br><br><br><br>
+ <br><br><br><br><br><br><br><br><button onclick="car()">kirish</button>
+ </div>
+  <div class="cor">
+  <h1 id="demo">Auto Park</h1>
+  
+  <br><br> <h1 id="var"></h1>
+  <img id="src" src="" alt=""width="500px">
+  <br><br><br><br><br>
+  <br><br><br><br><br><br><br><br><button onclick="src()">kirish</button>
+     
+      <script>
+   function car(){
+        document.getElementById("car").innerHTML = "LAMBORGHINI";
+        document.getElementById("lambo").src = "xs.jpg";
+      }
+             function src(){
+      document.getElementById("var").innerHTML = "BMW 330i";
+            document.getElementById("src").src = "S.jpg";
+          }
+  </script></div>
+</body>
+</html>
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sanjar</title>
@@ -16,4 +65,4 @@
         
     </script>
 </body>
-</html>
+</html> -->
